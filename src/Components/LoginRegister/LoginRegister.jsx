@@ -32,22 +32,20 @@ function LoginRegister() {
 
   return (
     <div className="h-screen flex flex-col">
-      {/* Header Section */}
-      <header className=" text-white flex items-center justify-between">
-
-      </header>
-
-      <div className="pt-4 flex-grow bg-gray-100 flex items-center justify-center">
-        <div className='flex flex-row justify-center items-center'>
-          <div className={`flex-col wrapper${action} w-1/3 h-[5000px] items-center`}>
-            <div className="flex items-center space-x-4">
+      <header>
+      <div className="flex items-center space-x-4">
               {/* Logo/Image */}
               <img
                 src="/vermeg_header.jpg"
                 alt="Logo"
-                className="h-[140px] w-[420px] object-cover"
+                className="h-[140px] w-screen object-cover"
               />
             </div>
+      </header>
+      <div className=" flex-grow bg-gray-100 flex items-center justify-center">
+        <div className='flex w-screen flex-row justify-center items-center'>
+          <div className={`flex-col wrapper${action} w-1/3 items-center`}>
+            
             <div className='form-box login'>
               <form action="">
                 <h1>Login</h1>
@@ -139,7 +137,7 @@ function LoginRegister() {
           <img
                 src="/vermeg_buildings.jpg"
                 alt="Logo"
-                className="h-[600px] w-[600px] object-cover"
+                className="  object-cover"
               />
           </div>
 

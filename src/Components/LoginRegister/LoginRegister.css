@@ -1,17 +1,15 @@
 .wrapper {
     position: relative;
-    width: 420px;
-    height:380px;
+    height:600px;
     background: rgb(76, 151, 216);
     border-radius: 10px;
     color: #fff;
     display: flex;
     align-items: center;
-    transition: height .5s ease;
     overflow: hidden;
 }
-.wrapper.active {
-    height:500px;
+.wrapper.active{
+    height: 600px;
 }
 .wrapper .form-box{
     width:100%;
