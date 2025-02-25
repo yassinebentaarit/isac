@@ -39,12 +39,16 @@ function LoginRegister() {
                 src="/vermeg_header.jpg"
                 alt="Logo"
                 className="h-[140px] w-screen object-cover"
-              />
+              ></img>
+              <img 
+                src="/vermeg_header.jpg" 
+                alt="vermeg" 
+                className='absolute h-16 w-72 ml-12'/>
             </div>
       </header>
       <div className=" flex-grow bg-gray-100 flex items-center justify-center">
         <div className='flex w-screen flex-row justify-center items-center'>
-          <div className={`flex-col wrapper${action} w-1/3 items-center`}>
+          <div className={`flex-col wrapper${action} w-1/4 items-center `}>
             
             <div className='form-box login'>
               <form action="">
@@ -133,11 +137,11 @@ function LoginRegister() {
             </div>
           </div>
 
-          <div className='w-2/3'>
+          <div className='w-2/3 ml-10'>
           <img
                 src="/vermeg_buildings.jpg"
                 alt="Logo"
-                className="  object-cover"
+                className="object-cover"
               />
           </div>
 
